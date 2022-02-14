@@ -1,0 +1,243 @@
+body{
+    margin: 0px;
+    background-color: rgb(227, 243, 86);
+}
+   
+header{
+    border: 2px solid black;
+    position: relative;
+    background-color: rgba(250, 225, 6);
+    overflow: auto;
+}
+   
+header img{
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+   
+header nav{
+    float: right;
+    position: relative;
+    right: 30px;
+    top: 25px;
+    
+}
+   
+header nav ul li{
+    display: inline;
+}
+
+nav li{
+    float: left;
+    padding: 0px 15px;
+    margin: 0px 10px;
+    list-style-type: none;
+    
+}
+li a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 2px;
+    background-color: rgb(233, 169, 8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul li a{
+    color: black;
+      
+}
+
+/*Diseños de Inicio */
+#restaurant{
+    background-color: rgb(224, 194, 26);
+    overflow: auto;
+}
+#restaurant h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 0%;
+}
+
+div.imagen-restaurant{
+    float: left;
+    width: 20%;
+    padding: 5px 20px 5px 20%;
+    overflow: auto;
+}
+div.parrafos #parrafo1{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5% 15%;
+}
+#restaurant{
+    margin: 2%;
+    border: 2px solid black;
+}
+
+/*Diseños de la Carta */
+h1{
+    margin-left: 0%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#salchipapa{
+    background-color: rgb(224, 122, 26);
+    overflow: auto;
+}
+#salchipapa h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 0%;
+}
+
+div.imagen-salchipapa{
+    float: left;
+    width: 35%;
+    padding: 5px 20px 5px 15%;
+    overflow: auto;
+}
+div.resumen #resumen1{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5% 15%;
+}
+#salchipapa{
+    margin: 2%;
+    border: 2px solid black;
+}
+
+/* carta*/
+#salchipapapollo{
+    background-color: rgb(231, 63, 12);
+    overflow: auto;
+}
+#salchipapapollo h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 0%;
+}
+
+div.imagen-conpollo{
+    float: left;
+    width: 35%;
+    padding: 5px 20px 5px 15%;
+    overflow: auto;
+}
+div.resumenp #resumenp1{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5% 15%;
+}
+
+#salchipapapollo{
+    margin: 2%;
+    border: 2px solid black;
+}
+
+/* carta*/
+#salchipapamixta{
+    background-color: rgb(255, 167, 4);
+    overflow: auto;
+}
+#salchipapamixta h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 0%;
+}
+
+div.imagen-mixta{
+    float: left;
+    width: 35%;
+    padding: 5px 20px 5px 15%;
+    overflow: auto;
+}
+div.resumenm #resumenm1{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5% 12%;
+}
+
+#salchipapamixta{
+    margin: 2%;
+    border: 2px solid black;
+}
+
+/* carta*/
+#salchipapabonus{
+    background-color: rgb(255, 251, 6);
+    overflow: auto;
+}
+#salchipapabonus h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 0%;
+}
+
+div.imagen-bonus{
+    float: left;
+    width: 35%;
+    padding: 5px 20px 5px 15%;
+    overflow: auto;
+}
+div.resumenb #resumenb1{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4.5% 12%;
+}
+
+#salchipapabonus{
+    margin: 2%;
+    border: 2px solid black;
+}
+
+/* bebidas*/
+#bebidas{
+    background-color: rgb(120, 90, 168);
+    overflow: auto;
+}
+#bebidas h1{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 0%;
+}
+
+div.imagen-chicha{
+    float: left;
+    width: 34%;
+    padding: 0px 0px 20px 15%;
+    overflow: auto;
+}
+div.imagen-maracuya{
+    float: left;
+    width: 35%;
+    padding: 0px 0px 20px 20px;
+    overflow: auto;
+}
+#bebidas{
+    margin: 2%;
+    border: 2px solid black;
+}
+div.precio #vaso{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5% 15%;
+}
+
+/* ordenar*/
+#orden h1{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 0%;
+}
+#delivery {
+    border: 6px solid rgb(0, 0, 0);
+    background-color: rgb(2, 155, 2);
+    margin: 0% 20% 0% 20%;
+    padding: 1% 15% 2% 22%;
+}
+label{
+    display: block;
+    
+    
+}
